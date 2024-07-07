@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.section{
+
+    width:100%;
+    min-height: 100vh;
+    background-color:#352F44;
+}
+
+.containers{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+.content-section{
+    float:left;
+    width:55%;
+
+}
+.image-section{
+    float:right;
+    width:40%;
+
+}
+.image-section img{
+    width:100%;
+    height: auto;
+}
+
+.content-section .title{
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size: 28px;
+
+
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+    color:#C23373;
+    font-size: 19px;
+}
+
+.content-section .content p{
+    color: #D5FFD0;
+    margin-top:10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.content-section .content .button1{
+    margin-top: 30px;
+}
+.content-section .content .button1 a{
+
+    background-color: #A78295;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+
+.content-section .content .button1 a:hover{
+    background-color: #a52a2a;
+    color:#fff;
+
+}
+.content-section .social{
+    margin: 40px 40px;
+
+
+}
+.content-section .social i{
+    color:#a52a2a;
+    font-size: 30px;
+    padding:0px 10px;
+
+
+
+
+
+} 
+
+.content-section .social i:hover{
+    color:#3d3d3d;
+
+
+}
+
+.unique{
+    background-color: #3d3d3d;
+    height: 60px;
+    
+    
+}
+
+.unique h2{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.main h5{
+    text-align: center;
+
+}
+
+.box{
+    background-color:#BEADFA;
+
+    
+}
+
+
+.section1 img{
+    float: left;
+  margin-left: 125px;
+  margin-top: 0px;
+  
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+
+}
+
+.line{
+    height: 10px;
+    background-color: white;
+
+}
+
+.mine{
+    min-height: 80vh;
+    
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .containers{
+        width:80%;
+        display: block;
+        margin: auto;
+        padding-top:100px;
+
+    
+
+    
+}
+
+.content-section{
+    float:none;
+    width:100%;
+    display: block;
+    margin: auto;
+
+
+}
+
+.image-section{
+    float:none;
+    width:100%;
+    
+
+
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+.content-section .title{
+    text-align:center;
+    font-size:19px;
+}
+
+.content-section .content .button{
+    text-align: center;
+
+}
+
+.content-section .content .button a{
+    padding: 9px 30px;
+
+}
+
+.content-section .social{
+    text-align: center;
+}
+
+.section1 img{
+
+  border-radius: 100%;
+  
+  
+
+}
+
+.line{
+    background-color: white;
+
+}
+
+.mine{
+    margin-top: -22px;
+}
+
+}
+
+
+
+
